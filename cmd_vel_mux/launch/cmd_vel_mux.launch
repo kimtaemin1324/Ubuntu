@@ -1,0 +1,18 @@
+<launch>
+
+   <node pkg="cmd_vel_mux" type="cmd_vel_mux_node" name="cmd_vel_mux_node" output="screen">
+
+   <param name="sonar_cmd_vel_topic"                 type = "double"      value = "0.0"/>   
+
+   <param name="yaw_cmd_vel_topic"                   type = "double"      value = "0.0"/>
+   
+   <param name="line_cmd_vel_topic"                  type = "double"      value = "0.0"/>
+   
+   <param name="type_cmd_vel_topic"                  type = "double"      value = "0.0"/>
+   
+   <param name="ackermann_cmd_vel_topic"             type = "double"      value = "0.0"/>
+   
+   
+​   </node>
+   
+</launch>
